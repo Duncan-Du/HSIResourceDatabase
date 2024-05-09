@@ -1,0 +1,32 @@
+Name	Category	Types of Data	Languages	DataFormats	Usability	URL	Notes
+Data Handler P(aris)	Open-source Code,Software Tool	Hyperspectral Data	Python	HDF	Software lacks documentation, but usable.	https://sourceforge.net/projects/datahandlerp/	
+EcoSIS	Dataset	Hyperspectral Data		CSV	Very good. Includes APIs for integration	https://ecosis.org	
+EcoSML	Dataset	Hypersprectral Models	Python,R	CSV,JSON	Poor. There isn’t a standard data format. Different datasets use different languages.	https://ecosml.org	
+HSDAR	Code Library	Hyperspectral Data	R		No longer being supported	https://github.com/cran/hsdar	
+hyperSpec	Code Library	Hyperspectral Data	R	Custom	Documentation and tutorials slightly outdated, but usable.	https://hyperspec.r-forge.r-project.org	
+Hypro	Open-source Code	HySpex Images	Python	Digital Number	Contains bugs preventing execution	https://github.com/EnSpec/hypro	
+HyTools	Code Library	Hyperspectral Data	Python	ENVI,HDF	Incomplete documentation, yet usable	https://github.com/EnSpec/hytools	
+ISET	Dataset,Software Tool	Hyperspectral Data	Matlab	MAT	Usable datasets	https://github.com/ISET/isetcam/wiki/Spectral-scene-database	
+Mitsuba 3	Code Library	Image,Mesh	Python	JPEG,OBJ,OpenEXR,PLY,PNG	Actively supported, need more specification on spectral outputs	https://github.com/mitsuba-renderer/mitsuba3	
+OpenHSI	Code Library,Hardware	Config,Hyperspectral Data,Image	Python	JSON,NetCDF,PKL,PNG	Simulated camera usable, but loading datacubes cause error. 	https://github.com/openhsi/openhsi/	
+PySptools	Code Library	Hyperspectral Data	Python	ENVI	Outdated and no longer supported, but usable	https://sourceforge.net/projects/pysptools/	
+Spectral Python(SPy)	Code Library	Hyperspectral Data	Python	AVIRIS,ENVI,ERDAS	Contains bugs in its important feature of interactive displays	https://github.com/spectralpython/spectral	
+Rayference	Enterprise/Organization					https://www.rayference.eu/1/index.php#up	
+Eradiate	Code Library	Hyperspectral Data	Python	BMP,JSON,NetCDF,PLY	Documentation seems very comprehensive, but was unable to run the tutorial	https://github.com/eradiate/eradiate/	
+ASWF	Enterprise/Organization				Potentially useful	https://www.aswf.io	A group supporting many open-source tools for animation, visual effects, and simulation. Some tools could be useful in the future
+Cloud Monte Carlo	Platform	Hypersprectral Models			Very usable with good documentation.	https://www.lighttransport.net/	
+NASA Openscapes					They seem to be doing similar work to what we are doing, but with NASA Earthdata. Not sure how helpful it can be to us.	https://nasa-openscapes.github.io/	
+NASA Earthdata	Dataset	Hyperspectral Data		NetCDF		https://www.earthdata.nasa.gov/  	
+Ocean Biology DAAC	Enterprise/Organization					https://www.earthdata.nasa.gov/eosdis/daacs/obdaac	
+SeaDAS	Software Tool			ACE,NetCDF,XML	Old interface but very usable. Allows easy visualizations of hyperspectual data of various formats.	https://seadas.gsfc.nasa.gov	
+ICONES	Dataset	Hyperspectral Data		ENVI	Usable with other systems	https://xlim-sic.labo.univ-poitiers.fr/datasets/ICONES-HSI/?lang=en	
+Hyperspectral Pigments	Dataset	Hyperspectral Data		ENVI	Usable with other systems	https://zenodo.org/records/5592485	
+Malia Rendering Framework	Open-source Code,Software Tool	Hyperspectral Data,Image,Mesh	C++	ENVI,JPEG,MSF,OpenEXR,PNG,RAW	Download links for binary releases are broken. Fail to build from source code following the documentation (probably need to downgrade versions of dependencies). Well documented though.	https://gitlab.com/mrf-devteam/mrf	
+Golden Paint Spectra	Dataset	Hyperspectral Data		XLSX	Single-spreadsheet dataset	https://www.realtimerendering.com/golden.html	
+PBR	Open-source Code,Software Tool	Hyperspectral Data,Image,Mesh	C++	OpenEXR,PBRT,PFM,PLY,PNG	Good documentation. Successfully built and run.	https://github.com/mmp/pbrt-v4	
+RADIANCE	Open-source Code,Software Tool	Config,Hyperspectral Data,Image,Mesh	C	PIC,RAD	Fail to compile with my WSL system (fatal error: X11/Xlib.h: No such file or directory). Documentation might be a bit outdated, but pretty detailed.	https://radsite.lbl.gov/radiance/	UNIX only
+OpenEXR Spectral Image	Code Library	Hyperspectral Data	C++,Python	CSV,OpenEXR	Fail to build. (LNK1104 Can’t open file “..\..\lib\Debug\EXRSpectralImage.lib”) No documentation but provides sample code.	https://github.com/afichet/spectral-exr	
+DART	Software Tool	Hyperspectral Data,Image,Mesh		NetCDF,OBJ,PNG,XML	Needs license application. Didn’t test. Good documentation.	https://dart.omp.eu/#/getDart	
+SNAP	Open-source Code,Software Tool	Hyperspectral Data,Image	Java	BEAM-DIMAP,ENVI,GeoTIFF,HDF,PNG	Good usability. Many tutorials and a forum.	https://github.com/senbox-org	
+ENVI	Software Tool	Hyperspectral Data		HDF,NetCDF,PNG	Paid product. Didn’t test. Good documentation.	https://www.nv5geospatialsoftware.com/Products/ENVI	
+Hyperspectral Near-infrared Dataset of Bulky Waste	Dataset	Hyperspectral Data				https://fordatis.fraunhofer.de/handle/fordatis/375?locale=en	
